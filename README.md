@@ -1,7 +1,7 @@
 # concert_db
 
 https://platform.openai.com/api-keys
-위 링크에서 회원가입 후 API Key 발급.
+링크에서 회원가입 후 API Key 발급.
 
 발급 후, 해당 코드를 본인의 notion 등에 저장.
 
