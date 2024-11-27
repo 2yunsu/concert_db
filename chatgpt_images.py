@@ -70,7 +70,7 @@ with open(input_csv_file, newline='', encoding='utf-8') as csvfile:
             try:
                 # Make the API request
                 response = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="gpt-4o", #"gpt-4o-mini" 등 다른 버전으로 변경하여 사용 가능
                     messages=[
                         {
                             "role": "user",
