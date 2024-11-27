@@ -2,7 +2,10 @@
 
 https://platform.openai.com/api-keys
 위 링크에서 회원가입 후 API Key 발급.
+
 발급 후, 해당 코드를 본인의 notion 등에 저장.
+
+API 비용 결제.
 
 터미널에서, 아래와 같이 입력하여 코드 복사.
 ```
@@ -18,7 +21,7 @@ chatgpt_images.py 파일 5번째 줄에, api_key = "" 사이에 아까 발급 �
       api_key="Your API Key",
   )
 ```
-concert_db.csv 파일과 같이 csv 파일의 2열에 이미지 링크 추가
+concert_db.csv 파일과 같이 csv 파일의 2열에 이미지 링크 추가.
 ```
 number, URL
 1, https://ticketimage.interpark.com/Play/image/large/24/24016428_p.gif
