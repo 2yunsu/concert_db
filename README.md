@@ -5,7 +5,7 @@ https://platform.openai.com/api-keys
 
 발급 후, 해당 코드를 본인의 notion 등에 저장.
 
-API 비용 결제.
+API 비용 결제(1000토큰에 0.002$).
 
 터미널에서, 아래와 같이 입력하여 코드 복사.
 ```
