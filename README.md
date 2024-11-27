@@ -6,7 +6,7 @@ https://platform.openai.com/api-keys
 
 터미널에서, 아래와 같이 입력하여 코드 복사.
 ```
-  git clone https://github.com/2yunsu/concert_db.git)
+  git clone https://github.com/2yunsu/concert_db.git
 ```
 터미널에서, 아래와 같이 입력하여 필요한 모듈 다운로드.
 ```
@@ -29,3 +29,17 @@ number, URL
 ```
   python chatgpt_images.py
 ```
+
+출력 예시
+```
+response_content:  
+임현정, 예술의전당, 2024-12-05, 피아노 협주곡 1, 2, 3, 4 및 파가니니 주제에 의한 랩소디
+
+response_content:  
+SEO PIL WON, 체임버홀, 2024-12-04 19:30, 쇼팽 에튀드 전곡 연주
+
+response_content:  
+정문채, 금호아트홀, 12.7, 기타 독주회
+```
+
+이후, 생성된 concert_db_added.csv 파일에 공연자, 공연 장소, 공연 시기, 공연 내용 추가되어 저장됨.
