@@ -75,7 +75,7 @@ with open(input_csv_file, newline='', encoding='utf-8') as csvfile:
                         {
                             "role": "user",
                             "content": [
-                                {"type": "text", "text": "포스터의 공연자, 공연 장소, 공연 시기, 공연 내용만 csv 파일 형식으로 ""를 각 내용 양 끝에 붙여 순서대로 나열하고 다른 말은 하지마."},
+                                {"type": "text", "text": "포스터의 공연자, 공연 장소, 공연 시기, 공연 내용만 csv 파일 형식으로 순서대로 나열하고 다른 말은 하지마."},
                                 {
                                     "type": "image_url",
                                     "image_url": {"url": image_url},
