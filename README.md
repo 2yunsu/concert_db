@@ -11,7 +11,14 @@ API 비용 결제(1000토큰에 0.002$).
 ```
   git clone https://github.com/2yunsu/concert_db.git
 ```
-터미널에서, 아래와 같이 입력하여 필요한 모듈 다운로드.
+
+터미널에서, 아래와 같이 입력하여 가상환경 생성 및 필요한 모듈 다운로드.
+```
+conda create -n concert_db python=3.11
+```
+```
+conda actiavate concert_db
+```
 ```
   pip install openai re
 ```
