@@ -53,3 +53,6 @@ response_content:
 ```
 
 이후, 생성된 concert_db_added.csv 파일에 공연자, 공연 장소, 공연 시기, 공연 내용 추가되어 저장됨.
+
+ref)
+https://platform.openai.com/docs/guides/vision
