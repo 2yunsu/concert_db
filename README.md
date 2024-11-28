@@ -9,7 +9,7 @@ API 비용 결제(1000토큰에 0.002$).
 
 터미널에서, 아래와 같이 입력하여 코드 복사.
 ```
-  git clone https://github.com/2yunsu/concert_db.git
+git clone https://github.com/2yunsu/concert_db.git
 ```
 
 터미널에서, 아래와 같이 입력하여 가상환경 생성 및 필요한 모듈 다운로드.
@@ -20,12 +20,12 @@ conda create -n concert_db python=3.11
 conda actiavate concert_db
 ```
 ```
-  pip install openai re
+pip install openai re
 ```
 chatgpt_images.py 파일 5번째 줄에, api_key = "" 사이에 아까 발급 받은 자신의 API Key 입력.
 ```
-  client = OpenAI(
-      api_key="Your API Key",
+client = OpenAI(
+  api_key="Your API Key",
   )
 ```
 concert_db.csv 파일과 같이 csv 파일의 2열에 이미지 링크 추가.
@@ -37,7 +37,7 @@ number, URL
 ```
 터미널에서, 아래와 같이 입력하여 파이썬 파일 실행.
 ```
-  python chatgpt_images.py
+python chatgpt_images.py
 ```
 
 출력 예시
