@@ -51,6 +51,22 @@ SEO PIL WON, 체임버홀, 2024-12-04 19:30, 쇼팽 에튀드 전곡 연주
 response_content:  
 정문채, 금호아트홀, 12.7, 기타 독주회
 ```
+chatgpt_images.py 파일의 아래 코드에서 "포스터의 공연자,..." 문구를 수정하여 프롬프트 수정이 가능하며, max_token을 통해 출력 최대 토큰을 조절 가능.
+```
+messages=[
+    {
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "포스터의 공연자, 공연 장소, 공연 시기, 공연 내용만 csv 파일 형식으로 순서대로 나열하고 다른 말은 하지마."},
+            {
+                "type": "image_url",
+                "image_url": {"url": image_url},
+            },
+        ],
+    }
+],
+max_tokens=100,
+```
 
 이후, 생성된 concert_db_added.csv 파일에 공연자, 공연 장소, 공연 시기, 공연 내용 추가되어 저장됨.
 
